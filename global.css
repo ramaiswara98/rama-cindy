@@ -1,0 +1,22 @@
+@import url("https://fonts.googleapis.com/css2?family=Invisible:wght@700&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Arial:wght@700&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Inknut+Antiqua:wght@700&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Italianno:wght@400&display=swap");
+body {
+  margin: 0;
+  line-height: normal;
+}
+:root {
+  /* fonts */
+  --font-arial: Arial;
+  --font-italianno: Italianno;
+  --font-inknut-antiqua: "Inknut Antiqua";
+  --font-invisible: Invisible;
+
+  /* font sizes */
+  --font-size-45xl: 64px;
+  --font-size-base: 16px;
+
+  /* Colors */
+  --color-white: #fff;
+}

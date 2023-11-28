@@ -1,0 +1,70 @@
+@import url("https://fonts.googleapis.com/css2?family=Invisible:wght@700&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Arial:wght@700&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Inknut+Antiqua:wght@700&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Italianno:wght@400&display=swap");
+
+
+.the-wedding-of-container{
+  justify-content: center;
+  align-items: center;
+}
+.the-wedding-of-text{
+  margin: 0;
+  padding-top: 40px;
+  color: #FFFFFF;
+  font-family: 'Invisible';
+  text-align: center;
+  z-index: 3;
+}
+.nama-mempelai-container{
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+  margin-top: 40px;
+  padding: 10px 20px;
+}
+
+.nama-mempelai-text{
+  margin: 0;
+  font-family: 'Italianno';
+  color: #FFFFFF;
+  font-size: 64px;
+}
+
+.nama-mempelai-dan{
+  margin-top: 30px;
+}
+.nama-mempelai-2{
+  margin-top: 60px;
+}
+
+.cover-undangan{
+  background-image: url('../assets/gambar1.webp');
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position:center center;
+  height:100vh;
+  width:100%;
+  overflow: hidden;
+  position: fixed;
+}
+
+.cover-undangan::after{
+  background-color: rgba(0, 0, 0, 0.5);
+  position:absolute;
+  width: 100%;
+  height: 100vh;
+  content: '';
+  top: 0;
+  z-index: 0;
+  left: 0;
+}
+
+
+.bayangan {
+  top: 0;
+  left: 0;
+  background: rgba(0, 0, 0, 0.9);
+  width: 100%;
+  height: 100vh;
+}
