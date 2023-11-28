@@ -1,13 +1,32 @@
 import React, { useEffect, useState } from "react";
+import Love from '../assets/love.svg'
 
 import "./RamaCindy.css";
 
 function RamaCindy() {
   const [transition, setTransition] = useState('');
+  const [namaTamu, setNamaTamu] = useState('')
 
   useEffect(()=> {
-    setTransition('active')
+    // setTransition('active');
+    const timeout = setTimeout(() => {
+      setTransition('active');
+    }, 100);
+    animatedName("Ahmad Heriyawan")
   },[])
+
+  const animatedName = (nama)=>{
+    const string = nama;
+    const arrayFromString = string.split('');
+    let namas = '';
+    for(let i =0 ;i<arrayFromString.length;i++){
+      const timeout2 = setTimeout(()=>{
+        namas=namas+arrayFromString[i];
+        setNamaTamu(namas)
+      },1000)
+    }
+    console.log(arrayFromString)
+  }
   return (
     <div className="cover-undangan">
       <div className="overlay">
@@ -25,7 +44,10 @@ function RamaCindy() {
             <p className="nama-mempelai-text">Cindy</p>
           </div>
         </div>
-        <div className="bottom-container">
+        <div className="love-icon-container">
+          <img src={Love} className={"love-icon "+transition}/>
+        </div>
+        <div className={"bottom-container "+transition}>
           <div className="kepada-yth-container">
             <p className={"kepada-yth-text "+transition}>Kepada Yth</p>
           </div>
