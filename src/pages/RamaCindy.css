@@ -38,6 +38,8 @@
   margin-top: 60px;
 }
 
+
+
 .cover-undangan{
   background-image: url('../assets/gambar1.webp');
   background-size: cover;
@@ -48,8 +50,7 @@
   overflow: hidden;
   position: fixed;
 }
-
-.cover-undangan::after{
+.overlay{
   background-color: rgba(0, 0, 0, 0.5);
   position:absolute;
   width: 100%;
@@ -60,11 +61,90 @@
   left: 0;
 }
 
-
-.bayangan {
-  top: 0;
-  left: 0;
-  background: rgba(0, 0, 0, 0.9);
+.kepada-yth-container{
   width: 100%;
-  height: 100vh;
+}
+
+.nama-mempelai-1{
+  transition-property: all;
+  transition-duration: 1s;
+  transition-timing-function: ease;
+  transition-delay: 0s;
+  transform: translateX(-150px);
+  opacity: 0;
+}
+
+.nama-mempelai-1.active{
+  opacity: 1;
+  transform: translateX(0px);
+}
+
+.nama-mempelai-2{
+  transition-property: all;
+  transition-duration: 1s;
+  transition-timing-function: ease;
+  transition-delay: 0s;
+  transform: translateX(150px);
+  opacity: 0;
+}
+
+.nama-mempelai-2.active{
+  opacity: 1;
+  transform: translateX(0px);
+}
+
+.kepada-yth-text{
+  font-family: "Inknut Antiqua";
+  color: #FFFFFF;
+  font-size: 16px;
+  text-align: center;
+  margin: 0;
+  width: 100%;
+}
+
+
+.kepada-text{
+  font-family: "Inknut Antiqua";
+  color: #FFFFFF;
+  font-size: 24px;
+  text-align: center;
+  margin: 0;
+  width: 100%;
+}
+
+.mohon-maaf-text{
+  font-family: "Arial";
+  color: #FFFFFF;
+  font-size: 10px;
+  margin: 0;
+  text-align: center;
+  width: 100%;
+}
+
+.bottom-container{
+  bottom: 0;
+  position: absolute;
+  margin-bottom: 120px;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  display: flex;
+  width: 100%;
+}
+
+.button-buka-undangan{
+  cursor: pointer;
+  background-color: #AC2F2F;
+  border-radius: 10px;
+  padding: 10px 40px;
+  margin-top: 30px;
+  box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+}
+
+.button-buka-undangan-text{
+  margin: 0;
+  font-family: 'Arial';
+  font-size: 18px;
+  color: #FFFFFF;
+  font-weight: bold;
 }
