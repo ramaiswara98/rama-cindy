@@ -2,31 +2,20 @@ import React, { useEffect, useState } from "react";
 import Love from '../assets/love.svg'
 
 import "./RamaCindy.css";
+import { useParams } from "react-router-dom";
 
 function RamaCindy() {
   const [transition, setTransition] = useState('');
-  const [namaTamu, setNamaTamu] = useState('')
+  // const [namaTamu, setNamaTamu] = useState('')
+  const {nama} = useParams();
 
   useEffect(()=> {
     // setTransition('active');
     const timeout = setTimeout(() => {
       setTransition('active');
     }, 100);
-    animatedName("Ahmad Heriyawan")
   },[])
 
-  const animatedName = (nama)=>{
-    const string = nama;
-    const arrayFromString = string.split('');
-    let namas = '';
-    for(let i =0 ;i<arrayFromString.length;i++){
-      const timeout2 = setTimeout(()=>{
-        namas=namas+arrayFromString[i];
-        setNamaTamu(namas)
-      },1000)
-    }
-    console.log(arrayFromString)
-  }
   return (
     <div className="cover-undangan">
       <div className="overlay">
@@ -52,7 +41,7 @@ function RamaCindy() {
             <p className={"kepada-yth-text "+transition}>Kepada Yth</p>
           </div>
           <div className="kepada-container">
-            <p className="kepada-text">Ahmad Heriyawan</p>
+            <p className="kepada-text">{nama}</p>
           </div>
           <div className="mohon-maaf-container">
             <p className="mohon-maaf-text">
