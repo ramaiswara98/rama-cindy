@@ -1,0 +1,81 @@
+.ucapan-container{
+    background-color: #4F4747;
+    margin-top: -5px;
+    padding: 10px 20px;
+    align-items: center;
+    display: flex;
+    flex-direction: column;
+    min-height: 100vh;
+}
+.ucapan-title-container{
+    padding-top: 30px;
+}
+.ucapan-title-text{
+    margin: 0;
+    color: #FFFFFF;
+    font-family: 'Italianno';
+    font-size: 64px;
+    text-align: center;
+}
+
+.ucapan-card{
+    background-color: #FFFFFF;
+    padding: 10px 10px 10px 10px;
+    border-radius: 10px;
+    box-shadow: 0px 4px 4px 0px rgba(0, 0, 0, 0.25);
+    margin-top: 10px;
+    margin-bottom: 20px;
+    width: 80vw;
+    justify-content: center;
+    align-items:center ;
+    display: flex;
+    flex-direction: column;
+}
+
+.ucapan-input{
+    width: 80%;
+    padding: 10px 10px;
+    border-radius: 10px;
+    box-shadow: 0px 4px 4px 0px rgba(0, 0, 0, 0.25);
+    border: 1px solid rgba(0, 0, 0, 0.25);
+    font-family:Arial, Helvetica, sans-serif;
+    font-size: 16px;
+    margin-bottom: 20px;
+}
+
+.ucapan-item-container{
+    display: flex;
+}
+
+.ucapan-avatar-container{
+    background-color: #FFF;
+    padding: 10px 10px;
+    border-radius: 50%;
+    height: 32px;
+    width: 32px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-right: 10px;
+}
+.ucapan-avatar-text{
+    margin: 0px;
+    font-size: 20px;
+    font-family:Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+}
+
+.ucapan-nama-ucapan-container{
+    background-color: #FFF;
+    border-radius: 0px 10px 10px 10px;
+    width: 250px;
+    padding: 10px 10px;
+}
+
+.ucapan-nama-text{
+    margin: 0;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+}
+
+.ucapan-ucapan-text{
+    font-family: Arial, Helvetica, sans-serif;
+}

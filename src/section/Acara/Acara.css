@@ -1,0 +1,110 @@
+
+.acara-container{
+    background-color: #AC2F2F;
+    margin-top: -5px;
+    padding: 10px 20px;
+    align-items: center;
+    display: flex;
+    flex-direction: column;
+    min-height: 100vh;
+}
+.acara-title-container{
+    padding-top: 30px;
+    margin-top: -200px;
+}
+.acara-title-text{
+    margin: 0;
+    color: #FFFFFF;
+    font-family: 'Italianno';
+    font-size: 64px;
+    text-align: center;
+}
+
+.bunga-top-container{
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-end;
+}
+
+@keyframes rotateAnimation {
+    from {
+      transform: rotate(180deg);
+    }
+    to {
+      transform: rotate(182deg);
+    }
+  }
+
+.bunga-top{
+    top: 0;
+    right: 0;
+    width: 150px;
+    margin-right: -20px;
+    transform: rotate(180deg);
+    animation: rotateAnimation 2s infinite alternate;
+}
+.acara-card{
+    background-color: #FFFFFF;
+    padding: 10px 10px;
+    border-radius: 10px;
+    box-shadow: 0px 4px 4px 0px rgba(0, 0, 0, 0.25);
+    margin-top: 10px;
+    margin-bottom: 20px;
+    width: 80vw;
+}
+
+.acara-card-title{
+    font-family: 'Italianno';
+    font-size: 40px;
+    margin: 0;
+    text-align: center;
+}
+
+.acara-card-date{
+    font-family: 'Italianno';
+    font-size: 30px;
+    margin: 0;
+    text-align: center;
+}
+.acara-card-address{
+    font-family: 'Italianno';
+    font-size: 20px;
+    margin: 0;
+    text-align: center;
+}
+
+.acara-card-button{
+    padding: 15px 10px;
+    border-radius: 10px;
+    background-color: #AC2F2F;
+    margin-top: 10px;
+}
+
+.acara-card-button-text{
+    margin: 0;
+    text-align: center;
+    color: #FFF;
+    font-family: 'Invicible';
+}
+
+.acara-card-countdown-container{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    margin-top: 20px;
+}
+
+.countdown-item{
+    background-color: #FFFFFF;
+    padding: 10px 10px;
+    border-radius: 10px;
+    box-shadow: 0px 4px 4px 0px rgba(0, 0, 0, 0.25);
+}
+
+.countdown-item p{
+    margin: 0;
+    font-family: 'Arial';
+    font-size: 20px;
+    text-align: center;
+}
