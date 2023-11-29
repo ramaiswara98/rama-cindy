@@ -11,7 +11,7 @@ function RamaCindy() {
 
   useEffect(()=> {
     // setTransition('active');
-    const timeout = setTimeout(() => {
+    setTimeout(() => {
       setTransition('active');
     }, 100);
   },[])
@@ -34,7 +34,7 @@ function RamaCindy() {
           </div>
         </div>
         <div className="love-icon-container">
-          <img src={Love} className={"love-icon "+transition}/>
+          <img src={Love} className={"love-icon "+transition} alt="love-icon"/>
         </div>
         <div className={"bottom-container "+transition}>
           <div className="kepada-yth-container">
@@ -50,7 +50,7 @@ function RamaCindy() {
           </div>
           <div>
             <div className="button-buka-undangan">
-                <p className="button-buka-undangan-text">Buka Undangan</p>
+                <p className="button-buka-undangan-text" onClick={()=>{window.location.href='/undangan/pernikahan'}}>Buka Undangan</p>
             </div>
           </div>
         </div>

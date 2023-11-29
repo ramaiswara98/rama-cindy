@@ -1,0 +1,41 @@
+@import url("https://fonts.googleapis.com/css2?family=Invisible:wght@700&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Arial:wght@700&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Inknut+Antiqua:wght@700&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Italianno:wght@400&display=swap");
+@import url('https://fonts.googleapis.com/css2?family=Inter&family=Outfit:wght@100;400&display=swap');
+
+.our-story-container{
+    background-color: #4F4747;
+    margin-top: -5px;
+    padding: 10px 20px;
+    align-items: center;
+    display: flex;
+    flex-direction: column;
+    min-height: 100vh;
+}
+.our-story-title-container{
+    padding-top: 30px;
+}
+.our-story-title-text{
+    margin: 0;
+    color: #FFFFFF;
+    font-family: 'Italianno';
+    font-size: 64px;
+    text-align: center;
+}
+
+.our-story-images{
+    width: 80%;
+    height: 200px;
+    background-color: #000;
+    margin-top: 20px;
+}
+
+.our-story-text{
+    color: #FFFFFF;
+    font-family: 'Inter';
+}
+
+.our-story-text-container{
+    padding: 10px 30px;
+}

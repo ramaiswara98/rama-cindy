@@ -1,12 +1,10 @@
 import React, { useState } from 'react'
 
 import './GenerateLink.css'
-import { useCopyToClipboard } from 'usehooks-ts';
 
 function GenerateLink() {
     const [namaTamu, setNamaTamu] = useState('');
     const [link, setLink] = useState("")
-    const [value, copy] = useCopyToClipboard();
 
     const message = `Assalamualaikum
     
@@ -33,18 +31,12 @@ function GenerateLink() {
         const replacedString = nama.replace(/ /g, '%20');
         const link = "https://rama-cindy.vercel.app/"+replacedString;
         setLink(link)
-        // console.log(replacedString);
     }
 
     const handleClickLink = () => {
         window.open(link,'_blank')
     }
 
-    const handleCopyLink = () => {
-        console.log(link)
-        copy(link);
-        alert('Link Berhasil di Copy')
-    }
   return (
     <div style={{width:'100vw'}}>
         <div className='input-container'>
