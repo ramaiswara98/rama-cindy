@@ -53,7 +53,11 @@
     margin-bottom: 20px;
     width: 80vw;
 }
-
+.mahkota{
+    width: 100%;
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
 .acara-card-title{
     font-family: 'Italianno';
     font-size: 40px;
