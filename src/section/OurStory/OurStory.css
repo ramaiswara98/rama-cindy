@@ -12,7 +12,62 @@
     display: flex;
     flex-direction: column;
     min-height: 100vh;
+    
 }
+.our-story-container::before{
+    content: '';
+    width: 159px;
+    height: 212px;
+    margin-top: -10px;
+    right: 0;
+    z-index: 1;
+    position: absolute;
+    background-repeat: no-repeat;
+    background-size: cover; /* This property ensures the image covers the entire element */
+    background-position: center;
+    background-image: url('../../assets//bunga-merah-putih.png');
+    /* animation: rotateAnimationBungaBawah 2s ease-in-out infinite alternate; */
+}
+
+.bunga-3{
+    width: 330px;
+    height: 302px;
+    margin-left: -100px;
+    animation: scaleUp 2s ease-in-out  infinite alternate;
+}
+
+.our-story-container::after{
+    content: '';
+    width: 90px;
+    height: 241px;
+    margin-top: 150px;
+    right: 0;
+    position: absolute;
+    background-repeat: no-repeat;
+    background-size: cover; /* This property ensures the image covers the entire element */
+    background-position: center;
+    z-index: 0;
+    background-image: url('../../assets/bunga2.png');
+    animation: rotateAnimationBungaBawah 2s ease-in-out infinite alternate;
+}
+
+@keyframes rotateAnimationBungaBawah {
+    from {
+      transform: translateY(0px);
+    }
+    to {
+      transform:   translateY(-7px);
+    }
+  }
+@keyframes scaleUp {
+    from{
+        transform: scale(1) rotate(0deg);
+    }
+    to{
+        transform: scale(1.05) rotate(4deg);
+    }
+}
+
 .our-story-title-container{
     padding-top: 30px;
 }
@@ -22,6 +77,8 @@
     font-family: 'Italianno';
     font-size: 64px;
     text-align: center;
+    z-index: 2;
+    position: relative;
 }
 
 .our-story-images{

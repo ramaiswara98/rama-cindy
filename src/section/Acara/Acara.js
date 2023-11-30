@@ -5,7 +5,6 @@ import Bunga from '../../assets/bunga.png'
 import Mahkota from '../../assets/mahkota.png'
 
 function Acara() {
-    const targetDates = new Date('2024-02-12T00:00:00'); // Set your target date and time here
 
   const calculateTimeLeft = (targetDate) => {
     const difference = targetDate.getTime() - new Date().getTime();
@@ -35,7 +34,8 @@ function Acara() {
   return (
     <div className='acara-container'>
         <div className='bunga-top-container'>
-        <img src={Bunga} alt='bunga' className='bunga-top'/>
+            <img src={Bunga} alt='bunga' className='bunga-top-left'/>
+            <img src={Bunga} alt='bunga' className='bunga-top-right'/>
         </div>
         <div className='acara-title-container'>
             <p className='acara-title-text'>Acara</p>
@@ -132,6 +132,10 @@ function Acara() {
                     
                 </div>
             </div>
+        </div>
+        <div className='bunga-bottom-container'>
+            <img src={Bunga} alt='bunga' className='bunga-bottom-left'/>
+            <img src={Bunga} alt='bunga' className='bunga-bottom-right'/>
         </div>
     </div>
   )

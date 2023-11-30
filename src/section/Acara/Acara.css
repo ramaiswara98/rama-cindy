@@ -2,7 +2,7 @@
 .acara-container{
     background-color: #AC2F2F;
     margin-top: -5px;
-    padding: 10px 20px;
+    padding: 10px 20px 0px 20px;
     align-items: center;
     display: flex;
     flex-direction: column;
@@ -10,7 +10,7 @@
 }
 .acara-title-container{
     padding-top: 30px;
-    margin-top: -200px;
+    margin-top: -150px;
 }
 .acara-title-text{
     margin: 0;
@@ -24,25 +24,61 @@
     width: 100%;
     display: flex;
     flex-direction: row;
-    justify-content: flex-end;
+    justify-content: space-between;
+    margin-top: -10px;
+}
+
+.bunga-bottom-container{
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    margin-top: -50px;
+
 }
 
 @keyframes rotateAnimation {
     from {
-      transform: rotate(180deg);
+      transform: scale(1);
     }
     to {
-      transform: rotate(182deg);
+      transform: scale(1.2);
     }
   }
 
-.bunga-top{
+.bunga-bottom-right{
+    top: 0;
+    right: 0;
+    width: 150px;
+    margin-right: -20px;
+    /* transform: rotate(180deg); */
+    transform: scaleX(-1);
+    /* animation: rotateAnimation 2s infinite alternate; */
+}
+.bunga-bottom-left{
+    top: 0;
+    right: 0;
+    width: 150px;
+    margin-left: -20px;
+    /* transform: scaleY(-1); */
+    /* animation: rotateAnimation 2s infinite alternate; */
+}
+
+.bunga-top-right{
     top: 0;
     right: 0;
     width: 150px;
     margin-right: -20px;
     transform: rotate(180deg);
-    animation: rotateAnimation 2s infinite alternate;
+    /* animation: rotateAnimation 2s infinite alternate; */
+}
+.bunga-top-left{
+    top: 0;
+    right: 0;
+    width: 150px;
+    margin-left: -20px;
+    transform: scaleY(-1);
+    /* animation: rotateAnimation 2s infinite alternate; */
 }
 .acara-card{
     background-color: #FFFFFF;

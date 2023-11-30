@@ -14,6 +14,63 @@
     transform: rotate(180deg);
     
 }
+
+.bunga-bottom{
+   display: flex;
+   justify-content: center;
+   align-items: flex-end;
+   transform: translateY(50px);
+}
+.bunga-merah{
+    transform: rotate(270deg);
+    width: 40%;
+    bottom: 0;
+}
+
+.coklat-bunga{
+    /* background-image: url('../../assets//coklat-tengah.png'); */
+    background-repeat: no-repeat;
+    background-size: cover; /* This property ensures the image covers the entire element */
+    background-position: center;
+    padding: 10px 5px;
+    margin-bottom: 30px; 
+    /* animation: rotateAnimation 2s infinite alternate; */
+}
+.container-main-card{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 100%;
+    margin-top: -420px;
+    position: relative;
+    z-index: 1;
+    margin-bottom: 30px;
+}
+.coklat-bunga::before{
+    content: '';
+    max-width: 75vh;
+    height: 400px;
+    left: 0;
+    top: 0;
+    z-index: -1;
+    display: flex;
+    background-image: url('../../assets//coklat-tengah.png');
+    background-repeat: no-repeat;
+    background-size: cover; /* This property ensures the image covers the entire element */
+    background-position: center;
+    padding: 40px 10px;
+    margin-bottom: 30px; 
+    animation: rotateAnimations 2s ease-in-out infinite alternate;
+}
+
+@keyframes rotateAnimations {
+    from {
+      transform: rotate(0deg) scale(1);
+    }
+    to {
+      transform: rotate(3deg) scale(1.05);
+    }
+  }
 .atasan-container{
     padding: 30px 20px;
     display: flex;
@@ -92,13 +149,10 @@
     margin: 0;
 }
 
-.container-main-card{
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    width: 100%;
-    margin-top: 20px;
-    margin-bottom: 30px;
+
+
+.container-main-card::before{
+
 }
 
 .instagram-icon{

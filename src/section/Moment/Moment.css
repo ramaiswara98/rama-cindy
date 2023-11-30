@@ -1,11 +1,14 @@
 .moment-container{
     background-color: #AC2F2F;
-    margin-top: -5px;
-    padding: 10px 20px;
+    margin-top: -20px;
+    z-index: 1;
+    position: relative;
+    padding: 10px 20px 100px 20px;
     align-items: center;
     display: flex;
     flex-direction: column;
     min-height: 100vh;
+
 }
 .moment-title-container{
     padding-top: 30px;
