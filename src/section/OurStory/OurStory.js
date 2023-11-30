@@ -4,6 +4,20 @@ import './OurStory.css'
 import Bunga3 from '../../assets/bunga3.png'
 
 function OurStory() {
+
+  const story = `  Allah memang selalu punya jalan untuk mepertemukan dua insan yang Dia takdirkan untuk bersama.
+
+  Mengawali komunikasi dari sosial media, hingga akhirnya bisa bertatap muka untuk pertama kalinya merupakan sebuah kebahagiaan yang luar biasa.
+  
+  Tidaklah sempurna, kami berdua, insan - insan yang terjalin dalam ikatan cinta, tak jarang komunikasi harus berakhir dengan gemerisik air mata, ditengah gemuruh tawa bahagia tiap harinya. Akan tetapi itulah alur yang harus kami lalui bersama. Anugerah cinta dari yang sang maha pemilik asmara membuat kami tetap bersama dan saling menjaga.
+  
+  Melalui berbagai hal bersama, suka duka, tangis tawa, amarah canda, dan lika liku yang ada, membuat kita akhirnya menjadi lebih matang dan dewasa. Membuat kita semakin mengerti bahwa kita saling membutuhkan satu sama lainnya, dan akan sangat sulit untuk melanjutkan bahagia tanpa salah satunya. 
+  
+  Akhirnya masa itupun tiba, masa dimana kami secara sadar memutuskan untuk menatap langkah selanjutnya, langkah yang memiliki lebih banyak tantangan tentunya, akan tetapi kami mantap untuk melalui nya karena kami yakin ini adalah langkah yang di ridhoi oleh Nya. 
+  
+  Titik itupun tiba, titik dimana kami akan meresmikan semuanya, titik dimana awal terbinanya bahtera rumah tangga, yang semoga akan menjadi keluarga sederhana yang berbahagia terlepas apapun nanti badai yang mencoba menenggelamkannya.
+  
+  Maka dari itu mohon doa dan restunya, semoga kami bisa mendapatkan ridho dari Nya agar bisa menjadi keluarga yang sakinah mawaddah dan warahma.`
   return (
     <div className='our-story-container'>
         <div className='our-story-title-container'>
@@ -14,8 +28,7 @@ function OurStory() {
         </div>
         <div className='our-story-text-container'>
             <p className='our-story-text'>
-            Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged. It was popularised in the 1960s with the release of Letraset sheets containing Lorem Ipsum passages, and more recently with desktop publishing software like Aldus PageMaker including versions of Lorem Ipsum
-
+            {story}
             </p>
         </div>
         <div>

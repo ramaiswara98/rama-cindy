@@ -91,6 +91,7 @@
 .our-story-text{
     color: #FFFFFF;
     font-family: 'Inter';
+    white-space: pre-wrap;
 }
 
 .our-story-text-container{
