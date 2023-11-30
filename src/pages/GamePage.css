@@ -1,0 +1,107 @@
+@import url('https://fonts.googleapis.com/css2?family=Comic+Neue&family=Inter&family=Outfit:wght@100;400&display=swap');
+.game-main{
+    background-image: url('../assets/bg-game.jpeg');
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position:center center;
+  /* height:100vh; */
+  width:100%;
+  /* overflow: hidden; */
+  /* position: fixed; */
+}
+
+.character{
+    width: 127px;
+    margin-top: -30px;
+}
+
+.button-game-positif{
+    cursor: pointer;
+    background-color: #AC2F2F;
+    border-radius: 10px;
+    padding: 10px 40px;
+    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+    margin-bottom: 20px;
+    margin-top: 30px;
+}
+
+.game-footer{
+    bottom: 0;
+    position: absolute;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-end;
+    margin-bottom: 0px;
+}
+.game-footer p{
+    margin: 0;
+    text-align: center;
+    color: #fff;
+    font-family: 'Comic Neue', cursive;;
+}
+
+.button-game{
+    cursor: pointer;
+    background-color: #AC2F2F;
+    border-radius: 10px;
+    padding: 10px 40px;
+    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+    margin-bottom: 20px;
+    margin-top: 30px;
+}
+.button-game-negatif{
+    cursor: pointer;
+    background-color: #4F4747;
+    border-radius: 10px;
+    padding: 10px 40px;
+    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+}
+
+.button-game-text{
+margin: 0;
+  font-family: 'Arial';
+  font-size: 18px;
+  color: #FFFFFF;
+  font-weight: bold;
+  text-align: center;
+}
+
+.bunga{
+    width: 126px;
+    margin-top: -60px;
+}
+
+.scene-container{
+    opacity: 0.25;
+    visibility: hidden;
+    transition: opacity 3s ease-in-out, visibility 0s linear 0.3s;
+    /* transition-delay: 1s; */
+}
+
+.scene-container.active{
+    opacity: 1;
+    visibility: visible;
+}
+
+.text-box{
+    background-image: url('../assets/text-box.png');
+    background-size:contain;
+    background-repeat: no-repeat;
+    background-position:center center;
+    padding: 30px 30px 30px 30px;
+    width: 300px;
+    height: 172px;
+    word-wrap: break-word;
+    font-family: 'Comic Neue', cursive;
+    font-size: 20px;
+    white-space: pre-line;
+
+}
+
+.container-char{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}

@@ -3,10 +3,11 @@ import Love from '../assets/love.svg'
 
 import "./RamaCindy.css";
 import { useParams } from "react-router-dom";
+import Modal from "../component/Modal/Modal";
 
 function RamaCindy() {
   const [transition, setTransition] = useState('');
-  // const [namaTamu, setNamaTamu] = useState('')
+  const [show, setShow] = useState(false)
   const {nama} = useParams();
 
   useEffect(()=> {
@@ -16,8 +17,23 @@ function RamaCindy() {
     }, 100);
   },[])
 
+  const toggle = () => {
+    setShow(!show)
+  }
+
   return (
     <div className="cover-undangan">
+      <Modal isOpen={show}>
+      <div className='acara-card'>
+          <p className="mode-buka-undangan">Pilih mode buka undangannya:</p>
+          <div className='button-buka-undangan' onClick={()=>{window.location.href='/undangan/game/'+nama}}>
+            <p className='button-buka-undangan-text' style={{textAlign:'center'}}>Fun</p>
+          </div>
+          <div className='button-buka-undangan' onClick={()=>{window.location.href='/undangan/pernikahan'}} style={{backgroundColor:"#4F4747"}}>
+            <p className='button-buka-undangan-text' style={{textAlign:'center'}}>Formal</p>
+          </div>
+        </div>
+      </Modal>
       <div className="overlay">
         <div className="the-wedding-of-container">
           <p className="the-wedding-of-text">The Wedding Of</p>
@@ -49,8 +65,8 @@ function RamaCindy() {
             </p>
           </div>
           <div>
-            <div className="button-buka-undangan">
-                <p className="button-buka-undangan-text" onClick={()=>{window.location.href='/undangan/pernikahan'}}>Buka Undangan</p>
+            <div className="button-buka-undangan" onClick={()=>{toggle()}}>
+                <p className="button-buka-undangan-text" >Buka Undangan</p>
             </div>
           </div>
         </div>

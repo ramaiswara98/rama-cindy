@@ -94,6 +94,11 @@
   left: 0;
 }
 
+.mode-buka-undangan{
+  font-family: "Inknut Antiqua";
+  font-size: 16px;
+}
+
 .kepada-yth-container{
   width: 100%;
 }
@@ -159,7 +164,7 @@
 .bottom-container{
   bottom: 0;
   position: absolute;
-  margin-bottom: 100px;
+  margin-bottom: 150px;
   flex-direction: column;
   justify-content: center;
   align-items: center;

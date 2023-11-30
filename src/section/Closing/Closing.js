@@ -5,6 +5,11 @@ import Modal from '../../component/Modal/Modal';
 
 function Closing() {
   const [open, setOpen] = useState(false);
+  const quotes = [
+    "Cie… nerima undangan mulu, ngasih undagannya kapan ?😹",
+    "Nggak capek diajak jalan mulu? sekali kali minta di ajak nikah lah😹",
+    "Pengen nanya kapan nyusul, tapi baru nyadar kamu kan jomblonya udah berumur😹"
+  ]
 
   const toggle = () => {
     const show = open;
@@ -14,7 +19,7 @@ function Closing() {
     <div className="closing-container">
       <Modal isOpen={open} onClose={toggle}>
         <div className='acara-card'>
-          <p>Cie… nerima undangan mulu, ngasih undagannya kapan ?😹</p>
+          <p>{quotes[Math.floor(Math.random()*quotes.length)]}</p>
           <div className='acara-card-button' onClick={toggle}>
             <p className='acara-card-button-text'>Tutup</p>
           </div>
