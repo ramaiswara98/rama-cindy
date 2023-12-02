@@ -13,6 +13,15 @@
 .character{
     width: 127px;
     margin-top: -30px;
+    animation: bernafas 1s ease-in-out infinite alternate;
+}
+
+@keyframes bernafas {
+    from{
+        transform: scale(1);
+    }to{
+        transform: scale(1.02);
+    }
 }
 
 .button-game-positif{
@@ -70,6 +79,16 @@ margin: 0;
 .bunga{
     width: 126px;
     margin-top: -60px;
+    z-index: 1;
+    animation: goyang 10s ease-in-out infinite alternate;
+}
+
+@keyframes goyang {
+    from{
+        transform: rotate(-10deg);
+    }to{
+        transform: rotate(10deg);
+    }
 }
 
 .scene-container{

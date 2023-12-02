@@ -2,7 +2,7 @@ export const dialog = [
     {
         id:0,
         dialog:`Halo kak …..
-        Terima kasih udah buka undangannya, jangan lupa hadir yah kak hehehe….`,
+        Makasih udah buka undangannya! Pasti hadir ya, jangan sampe absen, biar makin rame hehehe…`,
         response:{
             positif:{
                 text:"Insya Allah",
@@ -30,7 +30,7 @@ export const dialog = [
     },
     {
         id:2,
-        dialog:'Sok kenal banget sih kak, ayolah kenalan lebih dekat lagi ama mereka',
+        dialog:'sok kenal banget sih kak, ayolah kenalah lebih dekat lagi, siapa tahu kebagian rejeki buat nikah juga tahun ini',
         response:{
             positif:{
                 text:"Okedeh",
@@ -58,10 +58,10 @@ export const dialog = [
     },
     {
         id:4,
-        dialog:'Kita lanjut ke dengerin kisah indah mereka yuk kak, siapa tahu mirip ama kisah kakak nih, hehehe',
+        dialog:'Kita lanjut baca kisah indah mereka yuk kak, siapa tahu mirip ama kisah kakak nih, hehehe',
         response:{
             positif:{
-                text:"Oke, Yuk Dengerin",
+                text:"Oke, Yuk Baca Ceritanya",
                 response:'our-story'
             },
             negatif:{
@@ -72,7 +72,7 @@ export const dialog = [
     },
     {
         id:5,
-        dialog:'Yaelah malas banget jadi orang, baca dulu lah kak, siapa tahu bisa jadi inspirasi',
+        dialog:'Yaelah malas banget jadi orang, pantesan masih jomblo, baca dulu lah kak, siapa tahu bisa jadi inspirasi heheh',
         response:{
             positif:{
                 text:"Iya deh",
@@ -86,7 +86,7 @@ export const dialog = [
     },
     {
         id:6,
-        dialog:'Nah gimana kisah mereka kak? Romantis atau biasa aja ? Tapi seenggaknya nggak sekelam masa lalu kakak yang ditinggal pas lagi sayang - sayang nya kan 🤭',
+        dialog:'Nah gimana kisah mereka kak? Romantis atau biasa aja ? Tapi minimal nggak sekelam kisah masa lalu kakak yang ditinggal pas sayang - sayang nya kan ? enggak kan ? hehehe🤭',
         response:{
             positif:{
                 text:"Tau Ajah",
@@ -172,7 +172,7 @@ export const dialog = [
     },
     {
         id:13,
-        dialog:'Yakin nih kak ? padahal tinggal ketik doang loh kak, satu ucapan dari kakak bisa buat kedua mempelai bahagia loh kak',
+        dialog:'Serius nih, cuma sebar satu ucapan aja dari kamu, bisa jadi senyuman terindah buat kedua mempelai! Hehehe…',
         response:{
             positif:{
                 text:"Oke deh tulis ucapan",

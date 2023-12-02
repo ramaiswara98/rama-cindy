@@ -1,3 +1,9 @@
+@import url("https://fonts.googleapis.com/css2?family=Invisible:wght@700&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Arial:wght@700&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Inknut+Antiqua:wght@700&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Italianno:wght@400&display=swap");
+@import url('https://fonts.googleapis.com/css2?family=Inter&family=Outfit:wght@100;400&display=swap');
+
 .ucapan-container{
     background-color: #4F4747;
     margin-top: -5px;
@@ -74,10 +80,34 @@
 }
 
 .ucapan-nama-text{
-    margin: 0;
-    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    margin: 2px 0 0 0;
+    font-family: 'Invisible';
 }
+
+
 
 .ucapan-ucapan-text{
     font-family: Arial, Helvetica, sans-serif;
+    margin-top: 3px;
+    font-size: 12px;
+}
+
+.ucapan-waktu-text{
+    font-size: 10px;
+    margin: 0;
+    width: 100%;
+    text-align: right;
+}
+.pagination{
+    display: flex;
+    flex-direction: row;
+}
+
+.pagination-button{
+    margin-top: 40px;
+    background-color: #FFF;
+    margin-left: 10px;
+    border-radius: 10px;
+    text-align: center;
+    padding: 0px 10px;
 }

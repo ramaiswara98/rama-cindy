@@ -6,17 +6,17 @@ import Instagram from '../../assets/instagram.png'
 function Kenalan() {
   return (
     <div className='kenalan-container'>
-        <div className='atasan-container'>
+        <div className='atasan-container' >
             <img src={Atasan} alt='atasan' className='image-atasan'/>
         </div>
         <div className='kenalan-nama-container'>
-            <p className='kenalan-nama-mempelai-laki'>I Gusti Ngurah Rama Iswara S.Tr.Kom</p>
+            <p  className={'kenalan-nama-mempelai-laki'}>I Gusti Ngurah Rama Iswara S.Tr.Kom</p>
         </div>
         <div className='kenalan-nama-container'>
-            <p className='kenalan-nama-mempelai-laki'>&</p>
+            <p className={'kenalan-nama-mempelai-laki'}>&</p>
         </div>
         <div className='kenalan-nama-container'>
-            <p className='kenalan-nama-mempelai-laki'>Cindy Amelia Sari</p>
+            <p className={'kenalan-nama-mempelai-laki'}>Cindy Amelia Sari</p>
         </div>
         <div className='atasan-container'>
             <img src={Atasan} alt='atasan' className='image-atasan-bawah'/>
