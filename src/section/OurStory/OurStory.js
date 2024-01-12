@@ -2,7 +2,7 @@ import React from 'react'
 
 import './OurStory.css'
 import Bunga3 from '../../assets/bunga3.png'
-import RAMACINDY from '../../assets/prewed/IMG_5407.JPG'
+import RAMACINDY from '../../assets/prewed/IMG_5407.jpg'
 
 function OurStory() {
 

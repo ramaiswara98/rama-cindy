@@ -8,14 +8,14 @@ import 'swiper/css/pagination';
 import { EffectCards,EffectCoverflow, Pagination } from 'swiper/modules';
 
 import './Moment.css'
-import IMG1 from '../../assets/images/1.JPG'
-import IMG2 from '../../assets/images/2.JPG'
-import IMG3 from '../../assets/images/3.JPG'
-import IMG4 from '../../assets/images/4.JPG'
-import IMG5 from '../../assets/images/5.JPG'
-import IMG6 from '../../assets/images/6.JPG'
-import IMG7 from '../../assets/images/7.JPG'
-import IMG8 from '../../assets/images/8.JPG'
+import IMG1 from '../../assets/images/1.jpg'
+import IMG2 from '../../assets/images/2.jpg'
+import IMG3 from '../../assets/images/3.jpg'
+import IMG4 from '../../assets/images/4.jpg'
+import IMG5 from '../../assets/images/5.jpg'
+import IMG6 from '../../assets/images/6.jpg'
+import IMG7 from '../../assets/images/7.jpg'
+import IMG8 from '../../assets/images/8.jpg'
 
 function Moment() {
     const spanStyles={
