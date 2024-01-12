@@ -2,6 +2,7 @@ import React from 'react'
 
 import './OurStory.css'
 import Bunga3 from '../../assets/bunga3.png'
+import RAMACINDY from '../../assets/prewed/IMG_5407.JPG'
 
 function OurStory() {
 
@@ -24,7 +25,7 @@ function OurStory() {
             <p className='our-story-title-text'>Our Story</p>
         </div>
         <div className='our-story-images'>
-
+            <img src={RAMACINDY} alt='rama-cindy' style={{width:"100%"}}/>
         </div>
         <div className='our-story-text-container'>
             <p className='our-story-text'>

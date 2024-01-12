@@ -3,6 +3,9 @@ import React from 'react'
 import './Kenalan.css'
 import Atasan from '../../assets/atasan.png'
 import Instagram from '../../assets/instagram.png'
+import Rama from '../../assets/prewed/1.png'
+import Cindy from '../../assets/prewed/2.png'
+
 function Kenalan() {
   return (
     <div className='kenalan-container'>
@@ -25,7 +28,7 @@ function Kenalan() {
             <div className='container-main-card'>
                 <div className='kenalan-mempelai-card'>
                     <div className='kenalan-mempelai-card-foto-laki'>
-
+                        <img src={Rama} alt='rama' style={{width:'100%'}}/>
                     </div>
                     <p className='kenalan-nama-mempelai-text'>I Gusti Ngurah Rama Iswara S.Tr.Kom</p>
                     <p className='kenalan-putra-dari-text'>Putra dari :</p>
@@ -42,7 +45,7 @@ function Kenalan() {
             <div className='container-main-card'>
                 <div className='kenalan-mempelai-card'>
                     <div className='kenalan-mempelai-card-foto-laki'>
-
+                        <img src={Cindy} alt='rama' style={{width:'100%'}}/>
                     </div>
                     <p className='kenalan-nama-mempelai-text'>Cindy Amelia Sari</p>
                     <p className='kenalan-putra-dari-text'>Putri dari :</p>

@@ -74,7 +74,8 @@
 
 
 .cover-undangan{
-  background-image: url('../assets/gambar1.webp');
+  /* background-image: url('../assets/gambar1.webp'); */
+  background-image: url('../assets/prewed/IMG_5267.JPG');
   background-size: cover;
   background-repeat: no-repeat;
   background-position:center center;
