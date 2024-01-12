@@ -64,7 +64,7 @@ function Moment() {
             <p className='moment-title-text'>Moment</p>
         </div>
         {/* <div> */}
-            <div className='slider-container' style={{marginTop:60,marginBottom:60}}>
+            <div className='slider-container' >
             <div class="slider">
               {slideImage.map((item, index) => {
                 return(
@@ -81,7 +81,7 @@ function Moment() {
       >
         {standImage.map((item, index) => {
           return(
-            <SwiperSlide key={item}><img src={item} alt='img1' style={{width:'100%'}}/></SwiperSlide>
+            <SwiperSlide key={item} ><img src={item} alt='img1' style={{width:'100%'}}/></SwiperSlide>
           )
         })}
  
