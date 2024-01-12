@@ -24,7 +24,7 @@ function OurStory() {
             <p className='our-story-title-text'>Our Story</p>
         </div>
         <div className='our-story-images'>
-
+            <img src={"https://cdn.discordapp.com/attachments/1133382170321371238/1195470352197898331/IMG_5407.jpg?ex=65b41b86&is=65a1a686&hm=ae4a2728075da0fe91ad072f3b8d0acf0bc59e9bc71ba709ccd8e484f1b465f5&"} alt='rama-cindy' style={{width:"100%"}}/>
         </div>
         <div className='our-story-text-container'>
             <p className='our-story-text'>
