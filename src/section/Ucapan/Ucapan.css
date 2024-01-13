@@ -29,26 +29,49 @@
 .ucapan-card{
     background-color: #FFFFFF;
     padding: 10px 10px 10px 10px;
-    border-radius: 10px;
+    /* border-radius: 10px; */
     box-shadow: 0px 4px 4px 0px rgba(0, 0, 0, 0.25);
-    margin-top: 10px;
+    margin-top: 100px;
     margin-bottom: 20px;
     width: 80vw;
     justify-content: center;
     align-items:center ;
     display: flex;
     flex-direction: column;
+    
+}
+
+.ucapan-card-button{
+    padding: 10px 30px;
+    margin-top: 10px;
+    margin-bottom: 10px;
 }
 
 .ucapan-input{
     width: 80%;
     padding: 10px 10px;
-    border-radius: 10px;
-    box-shadow: 0px 4px 4px 0px rgba(0, 0, 0, 0.25);
-    border: 1px solid rgba(0, 0, 0, 0.25);
+    border-radius: 0;
+    border: none;
+    border-bottom: 1px solid #000;
     font-family:Arial, Helvetica, sans-serif;
     font-size: 16px;
     margin-bottom: 20px;
+}
+
+.ucapan-input:focus{
+    outline: none;
+    border-bottom: 1px solid #AC2F2F;
+}
+
+.tulis-ucapan-title{
+    margin: 0;
+    font-family: 'Italianno' !important;
+    font-size: 28px;
+    max-width: 80%;
+    word-wrap: break-word;
+    text-align: center;
+    color: black;
+    font-weight: 500;
 }
 
 .ucapan-item-container{
@@ -111,3 +134,71 @@
     text-align: center;
     padding: 0px 10px;
 }
+
+.kartu-ucapan{
+    position: relative;
+    width: 80vw;
+    height: 300px;
+    background-color: #fff;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+  
+}
+
+.kartu-ucapan .nama-pengirim{
+    margin: 0;
+    font-family: 'Italianno' !important;
+    font-size: 20px;
+    text-decoration: underline;
+    max-width: 80%;
+    text-align: center;
+    color: black;
+    font-weight: 500;
+}
+
+
+.cubeSwiper{
+    width: 80vw;
+    height: 300px;
+}
+
+.kartu-ucapan .ucapan{
+    margin: 0;
+    font-family: 'Italianno' !important;
+    font-size: 28px;
+    max-width: 80%;
+    word-wrap: break-word;
+    text-align: center;
+    color: black;
+    font-weight: 500;
+}
+
+.kartu-ucapan::before{
+    content: "";
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-image: url("../../assets/images/white-green-roses.png"); /* Replace with your actual image path */
+    background-repeat: no-repeat;
+    transform: rotate(180deg); /* Adjust the rotation angle as needed */
+}
+.kartu-ucapan::after{
+    content: "";
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-image: url("../../assets/images/white-green-roses.png"); /* Replace with your actual image path */
+    background-repeat: no-repeat;
+    transform: rotate(0deg); /* Adjust the rotation angle as needed */
+}
+
+.swiper-container {
+    -webkit-transform: translate3d(0,0,0);
+  }
