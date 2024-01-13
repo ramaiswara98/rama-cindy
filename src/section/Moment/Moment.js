@@ -65,13 +65,13 @@ function Moment() {
         </div>
         {/* <div> */}
             <div className='slider-container' >
-            <div class="slider">
-              {slideImage.map((item, index) => {
-                return(
-                  <span style={spanStyles[`--i-${index+1}`]} key={item}><img src={item}  alt='img1'/></span>
-                )
-              })}
-            </div>
+              <div class="slider">
+                {slideImage.map((item, index) => {
+                  return(
+                    <span style={spanStyles[`--i-${index+1}`]} key={item}><img src={item}  alt='img1'/></span>
+                  )
+                })}
+              </div>
             </div>
             <Swiper
         effect={'cards'}
@@ -81,7 +81,7 @@ function Moment() {
       >
         {standImage.map((item, index) => {
           return(
-            <SwiperSlide key={item} ><img src={item} alt='img1' style={{width:'100%'}}/></SwiperSlide>
+            <SwiperSlide key={item} ><img src={item} alt='img1' style={{width:'100%', background:'transparent'}}/></SwiperSlide>
           )
         })}
  
@@ -106,7 +106,7 @@ function Moment() {
         {horizontal.map((item, index) => {
           return(
             <SwiperSlide className='swiper-slide2' key={item}>
-              <img src={item} />
+              <img src={item} alt='items'/>
             </SwiperSlide>
           )
         })} 

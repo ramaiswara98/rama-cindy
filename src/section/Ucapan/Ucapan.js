@@ -115,6 +115,9 @@ function Ucapan() {
                 <p className='acara-card-button-text'>{button.text}</p>
             </div>
         </div>
+        <div>
+
+        </div>
         {ucapanList.length > 0 ? (<>
             {ucapanList.map((ucapan, index) => {
                 return(
