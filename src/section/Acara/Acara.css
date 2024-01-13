@@ -83,16 +83,18 @@
 .acara-card{
     background-color: #FFFFFF;
     padding: 10px 10px;
-    border-radius: 10px;
+    border-radius: 0px;
     box-shadow: 0px 4px 4px 0px rgba(0, 0, 0, 0.25);
     margin-top: 10px;
     margin-bottom: 20px;
     width: 80vw;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
 }
 .mahkota{
-    width: 100%;
-    margin-top: 20px;
-    margin-bottom: 20px;
+    width: 120px;
+    margin: auto;
 }
 .acara-card-title{
     font-family: 'Italianno';

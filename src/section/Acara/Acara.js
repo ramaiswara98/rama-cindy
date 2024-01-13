@@ -3,6 +3,8 @@ import React, { useEffect, useState } from 'react'
 import './Acara.css'
 import Bunga from '../../assets/bunga.png'
 import Mahkota from '../../assets/mahkota.png'
+import Ring from '../../assets/images/wedding-rings.png'
+import Wedding from '../../assets/images/couple.png'
 
 function Acara() {
 
@@ -42,96 +44,25 @@ function Acara() {
         </div>
         <div className='acara-card'>
             <p className='acara-card-title'>Akad Nikah</p>
-            <img src={Mahkota} alt='mahkota' className='mahkota'/>
+            <img src={Ring} alt='mahkota' className='mahkota'/>
             <p className='acara-card-date'>Senin 12/02/2024</p>
+            <p className='acara-card-address'>Pukul 10.00 WITA</p>
             <p className='acara-card-address'>Jl.Poros Wette'e No.36, Desan Wanio Timoreng</p>
-            <div className='acara-card-button'>
-                <p className='acara-card-button-text'>Lihat Lokasi</p>
-            </div>
-            <div className='acara-card-countdown-container'>
-                <div className='countdown-item'>
-                    <p>{timeLeft.days}</p>
-                    <p>Hari</p>
-                    
-                </div>
-                <div className='countdown-item'>
-                    <p>{timeLeft.hours}</p>
-                    <p>Jam</p>
-                    
-                </div>
-                <div className='countdown-item'>
-                    <p>{timeLeft.minutes}</p>
-                    <p>Menit</p>
-                   
-                </div>
-                <div className='countdown-item'>
-                <p>{timeLeft.seconds}</p>
-                    <p>Detik</p>
-                    
-                </div>
-            </div>
         </div>
         <div className='acara-card'>
             <p className='acara-card-title'>Resepsi Mempelai Wanita</p>
-            <img src={Mahkota} alt='mahkota' className='mahkota'/>
+            <img src={Wedding} alt='mahkota' className='mahkota'/>
             <p className='acara-card-date'>Senin 12/02/2024</p>
+            <p className='acara-card-address'>Pukul 10.00 WITA</p>
             <p className='acara-card-address'>Jl.Poros Wette'e No.36, Desan Wanio Timoreng</p>
-            <div className='acara-card-button'>
-                <p className='acara-card-button-text'>Lihat Lokasi</p>
-            </div>
-            <div className='acara-card-countdown-container'>
-            <div className='countdown-item'>
-                    <p>{timeLeft.days}</p>
-                    <p>Hari</p>
-                    
-                </div>
-                <div className='countdown-item'>
-                    <p>{timeLeft.hours}</p>
-                    <p>Jam</p>
-                    
-                </div>
-                <div className='countdown-item'>
-                    <p>{timeLeft.minutes}</p>
-                    <p>Menit</p>
-                   
-                </div>
-                <div className='countdown-item'>
-                <p>{timeLeft.seconds}</p>
-                    <p>Detik</p>
-                    
-                </div>
-            </div>
+
         </div>
         <div className='acara-card'>
             <p className='acara-card-title'>Resepsi Mempelai Pria</p>
-            <img src={Mahkota} alt='mahkota' className='mahkota'/>
-            <p className='acara-card-date'>Senin 12/02/2024</p>
+            <img src={Wedding} alt='mahkota' className='mahkota'/>
+            <p className='acara-card-date'>Selasa 13/02/2024</p>
+            <p className='acara-card-address'>Pukul 10.00 WITA</p>
             <p className='acara-card-address'>Jl.Poros Wette'e No.36, Desan Wanio Timoreng</p>
-            <div className='acara-card-button'>
-                <p className='acara-card-button-text'>Lihat Lokasi</p>
-            </div>
-            <div className='acara-card-countdown-container'>
-            <div className='countdown-item'>
-                    <p>{timeLeft1.days}</p>
-                    <p>Hari</p>
-                    
-                </div>
-                <div className='countdown-item'>
-                    <p>{timeLeft1.hours}</p>
-                    <p>Jam</p>
-                    
-                </div>
-                <div className='countdown-item'>
-                    <p>{timeLeft1.minutes}</p>
-                    <p>Menit</p>
-                   
-                </div>
-                <div className='countdown-item'>
-                <p>{timeLeft1.seconds}</p>
-                    <p>Detik</p>
-                    
-                </div>
-            </div>
         </div>
         <div className='bunga-bottom-container'>
             <img src={Bunga} alt='bunga' className='bunga-bottom-left'/>
