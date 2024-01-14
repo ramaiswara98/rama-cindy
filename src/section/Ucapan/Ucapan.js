@@ -80,6 +80,7 @@ function Ucapan() {
           shadowOffset: 20,
           shadowScale: 0.94,
         }}
+        loop={true}
         pagination={true}
         autoplay={{
             delay: 2500,

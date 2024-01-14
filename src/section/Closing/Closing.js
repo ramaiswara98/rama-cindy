@@ -2,6 +2,7 @@ import React, { useState } from 'react'
 
 import './Closing.css'
 import Modal from '../../component/Modal/Modal';
+import ParticlesComponent from '../../component/Particles/Particles';
 
 function Closing() {
   const [open, setOpen] = useState(false);
@@ -17,9 +18,11 @@ function Closing() {
   }
   return (
     <div className="closing-container">
+      <ParticlesComponent/>
       <Modal isOpen={open} onClose={toggle}>
         <div className='acara-card'>
-          <p>{quotes[Math.floor(Math.random()*quotes.length)]}</p>
+          <p style={{fontSize:"18px"}}>{quotes[Math.floor(Math.random()*quotes.length)]}</p>
+          <img src='https://media.discordapp.net/attachments/1133382170321371238/1195467046448799784/1.jpg?ex=65b41872&is=65a1a372&hm=59bbb7594581c6e0bd4eccbc8b1b81ff72948b99ec4fd47a76371daf2d1bfe73&=&format=webp&width=1272&height=848' alt='foto-ketawa' style={{width:"100%"}}/>
           <div className='acara-card-button' onClick={toggle}>
             <p className='acara-card-button-text'>Tutup</p>
           </div>

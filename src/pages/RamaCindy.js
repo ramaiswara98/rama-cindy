@@ -26,11 +26,11 @@ function RamaCindy() {
       <Modal isOpen={show}>
       <div className='acara-card'>
           <p className="mode-buka-undangan">Pilih mode buka undangannya:</p>
-          <div className='button-buka-undangan' onClick={()=>{window.location.href='/undangan/game/'+nama}}>
-            <p className='button-buka-undangan-text' style={{textAlign:'center'}}>Fun</p>
-          </div>
-          <div className='button-buka-undangan' onClick={()=>{window.location.href='/undangan/pernikahan'}} style={{backgroundColor:"#4F4747"}}>
+          <div className='button-buka-undangan' onClick={()=>{window.location.href='/undangan/pernikahan'}} >
             <p className='button-buka-undangan-text' style={{textAlign:'center'}}>Formal</p>
+          </div>
+          <div className='button-buka-undangan' onClick={()=>{window.location.href='/undangan/game/'+nama}} style={{backgroundColor:"#4F4747"}}>
+            <p className='button-buka-undangan-text' style={{textAlign:'center'}}>Fun</p>
           </div>
         </div>
       </Modal>

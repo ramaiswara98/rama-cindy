@@ -121,6 +121,7 @@
     border-radius: 10px;
     background-color: #AC2F2F;
     margin-top: 10px;
+    z-index: 1;
 }
 
 .acara-card-button-text{

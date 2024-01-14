@@ -57,7 +57,7 @@ const {nama} = useParams();
     }
     if(response === 'our-story'){
         setBg('coklat')
-        setSelectedScene(<OurStory/>)
+        setSelectedScene(<OurStory fun={true}/>)
         setDial(!dial)
     }
     if(response === 'momen'){
