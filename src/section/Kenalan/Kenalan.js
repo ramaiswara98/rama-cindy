@@ -57,8 +57,8 @@ function Kenalan() {
                     </div>
                     <p className='kenalan-nama-mempelai-text'>Cindy Amelia Sari</p>
                     <p className='kenalan-putra-dari-text'>Putri dari :</p>
-                    <p className='kenalan-orang-tua-text'>Yusran &</p>
-                    <p className='kenalan-orang-tua-text'>Ana</p>
+                    <p className='kenalan-orang-tua-text'>Yusran Mustafa &</p>
+                    <p className='kenalan-orang-tua-text'>Muhsana</p>
                 </div>
                 <div className='kenalan-instagram-button'>
                     <img src={Instagram} className='instagram-icon' alt='ig-icon'/>

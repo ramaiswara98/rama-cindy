@@ -55,8 +55,8 @@ function Acara() {
             <p className='acara-card-title'>Akad Nikah</p>
             <img src={Ring} alt='mahkota' className='mahkota'/>
             <p className='acara-card-date'>Senin 12/02/2024</p>
-            <p className='acara-card-address'>Pukul 10.00 WITA</p>
-            <p className='acara-card-address'>Jl.Poros Wette'e No.36, Desan Wanio Timoreng</p>
+            <p className='acara-card-address'>Pukul 09.00 WITA</p>
+            <p className='acara-card-address'>Jln.Angkatan 66, Lempangge, Rappang</p>
         </div>
         </Bounce>
         <Bounce triggerOnce={true}>
@@ -65,7 +65,7 @@ function Acara() {
             <img src={Wedding} alt='mahkota' className='mahkota'/>
             <p className='acara-card-date'>Senin 12/02/2024</p>
             <p className='acara-card-address'>Pukul 10.00 WITA</p>
-            <p className='acara-card-address'>Jl.Poros Wette'e No.36, Desan Wanio Timoreng</p>
+            <p className='acara-card-address'>Jln.Angkatan 66, Lempangge, Rappang</p>
 
         </div>
         </Bounce>
