@@ -69,8 +69,9 @@ function Moment() {
       "https://cdn.discordapp.com/attachments/1133382170321371238/1196443367052165181/WhatsApp_Image_2024-01-15_at_20.02.04.jpeg?ex=65b7a5b7&is=65a530b7&hm=90c1a46c993ffdd6ecbe7ba091b918f640ad945004f543634d44477796d7e5f9&",
       "https://cdn.discordapp.com/attachments/1133382170321371238/1196443367794540584/WhatsApp_Image_2024-01-15_at_20.02.05.jpeg?ex=65b7a5b7&is=65a530b7&hm=d14cf4e05c6e51b71fe445376663d0b9ea3d58f067fa8da9f772ca13b9458605&",
       "https://cdn.discordapp.com/attachments/1133382170321371238/1196443368193007657/WhatsApp_Image_2024-01-15_at_20.02.07.jpeg?ex=65b7a5b7&is=65a530b7&hm=dce086b67cdad4849960f94c9175964bc4bbef9f669d860c75be06efb1687ec9&",
-      "https://cdn.discordapp.com/attachments/1133382170321371238/1196443368931213403/WhatsApp_Image_2024-01-15_at_20.02.08.jpeg?ex=65b7a5b7&is=65a530b7&hm=94810e5da71db47a264b3b2de264af3b6530663b8c55b771fcfb64e08360d4df&"
-    
+      "https://cdn.discordapp.com/attachments/1133382170321371238/1196443368931213403/WhatsApp_Image_2024-01-15_at_20.02.08.jpeg?ex=65b7a5b7&is=65a530b7&hm=94810e5da71db47a264b3b2de264af3b6530663b8c55b771fcfb64e08360d4df&",
+      "https://cdn.discordapp.com/attachments/1133382170321371238/1196474808666423487/WhatsApp_Image_2024-01-15_at_21.45.22.jpeg?ex=65b7c2ff&is=65a54dff&hm=7d3aff231a5958e296b847f139f073b9e560aa258e1f6a9928c4ebd4a820927f&",
+      "https://cdn.discordapp.com/attachments/1133382170321371238/1196474809274617907/WhatsApp_Image_2024-01-15_at_21.46.50.jpeg?ex=65b7c2ff&is=65a54dff&hm=92075fb6e4bb944c09fac3dba1ddfc72ffe1a0d506c8fcef1d69b1d6cbce9e77&"
     ]
 
     const horizontal = [
@@ -82,8 +83,9 @@ function Moment() {
       "https://cdn.discordapp.com/attachments/1133382170321371238/1196440104793800775/WhatsApp_Image_2024-01-15_at_20.01.56.jpeg?ex=65b7a2ad&is=65a52dad&hm=4fa1d23f44bcdf4fab8f9ff1f8b90558ae90ca3ac5210f2adf9cef8786b393f2&",
       "https://cdn.discordapp.com/attachments/1133382170321371238/1196440105372618832/WhatsApp_Image_2024-01-15_at_20.02.02.jpeg?ex=65b7a2ad&is=65a52dad&hm=21777f857bc92e9f49a9586fd9d9afc17246c35cf97f6ba4de0c89e332a5f816&",
       "https://cdn.discordapp.com/attachments/1133382170321371238/1196440595783225426/WhatsApp_Image_2024-01-15_at_20.02.09.jpeg?ex=65b7a322&is=65a52e22&hm=27afbae689333a737e493eef621f6561baeaf77ac35807d49650b55a5f75e8d3&",
-      "https://cdn.discordapp.com/attachments/1133382170321371238/1196440596601110528/WhatsApp_Image_2024-01-15_at_20.02.10.jpeg?ex=65b7a323&is=65a52e23&hm=12ad6115429c4262bd218abe88b06e9717bb0d57ec17ed95199313fcbf47d236&"
-            
+      "https://cdn.discordapp.com/attachments/1133382170321371238/1196440596601110528/WhatsApp_Image_2024-01-15_at_20.02.10.jpeg?ex=65b7a323&is=65a52e23&hm=12ad6115429c4262bd218abe88b06e9717bb0d57ec17ed95199313fcbf47d236&",
+      "https://cdn.discordapp.com/attachments/1133382170321371238/1196474807613653073/WhatsApp_Image_2024-01-15_at_21.41.31.jpeg?ex=65b7c2ff&is=65a54dff&hm=9766f5af478ad579f6dc6d2a50f18503ccc8edfc0d11e61499ff8dbd24f73dff&",
+      "https://cdn.discordapp.com/attachments/1133382170321371238/1196474807957606552/WhatsApp_Image_2024-01-15_at_21.44.03.jpeg?ex=65b7c2ff&is=65a54dff&hm=c89e4abe03489e411340b98a6f282fd1710123653a7d683c8aa297c9dd94aa70&"  
     ]
   return (
     <div className='moment-container'>
