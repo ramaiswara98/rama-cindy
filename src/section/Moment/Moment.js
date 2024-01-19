@@ -71,7 +71,23 @@ function Moment() {
       "https://cdn.discordapp.com/attachments/1133382170321371238/1196443368193007657/WhatsApp_Image_2024-01-15_at_20.02.07.jpeg?ex=65b7a5b7&is=65a530b7&hm=dce086b67cdad4849960f94c9175964bc4bbef9f669d860c75be06efb1687ec9&",
       "https://cdn.discordapp.com/attachments/1133382170321371238/1196443368931213403/WhatsApp_Image_2024-01-15_at_20.02.08.jpeg?ex=65b7a5b7&is=65a530b7&hm=94810e5da71db47a264b3b2de264af3b6530663b8c55b771fcfb64e08360d4df&",
       "https://cdn.discordapp.com/attachments/1133382170321371238/1196474808666423487/WhatsApp_Image_2024-01-15_at_21.45.22.jpeg?ex=65b7c2ff&is=65a54dff&hm=7d3aff231a5958e296b847f139f073b9e560aa258e1f6a9928c4ebd4a820927f&",
-      "https://cdn.discordapp.com/attachments/1133382170321371238/1196474809274617907/WhatsApp_Image_2024-01-15_at_21.46.50.jpeg?ex=65b7c2ff&is=65a54dff&hm=92075fb6e4bb944c09fac3dba1ddfc72ffe1a0d506c8fcef1d69b1d6cbce9e77&"
+      "https://cdn.discordapp.com/attachments/1133382170321371238/1196474809274617907/WhatsApp_Image_2024-01-15_at_21.46.50.jpeg?ex=65b7c2ff&is=65a54dff&hm=92075fb6e4bb944c09fac3dba1ddfc72ffe1a0d506c8fcef1d69b1d6cbce9e77&",
+
+      "https://cdn.discordapp.com/attachments/1133382170321371238/1197837284842672128/WhatsApp_Image_2024-01-19_at_13.35.54_1.jpeg?ex=65bcb7e7&is=65aa42e7&hm=9acddcb8ee567dc2326a63c700cac5ee76037f5ede741c80fa9b23a2d86d03b4&",
+      "https://cdn.discordapp.com/attachments/1133382170321371238/1197837285555712000/WhatsApp_Image_2024-01-19_at_13.35.55_1.jpeg?ex=65bcb7e7&is=65aa42e7&hm=43c00abcf82dd1cc653e0d478008a0ffe5c68ce496940fd019473b1d2a4e2c76&",
+      "https://cdn.discordapp.com/attachments/1133382170321371238/1197837286348431370/WhatsApp_Image_2024-01-19_at_13.35.55.jpeg?ex=65bcb7e7&is=65aa42e7&hm=87fe25096db941a3180da9e589023d75e89d283e2f298a899da16f41668fea96&",
+      "https://cdn.discordapp.com/attachments/1133382170321371238/1197837287145345124/WhatsApp_Image_2024-01-19_at_13.35.56.jpeg?ex=65bcb7e7&is=65aa42e7&hm=165f208d06bb4e26ac5613eaaeb5a5c4725d7556c28838778d700fd6d330c8cf&",
+      "https://cdn.discordapp.com/attachments/1133382170321371238/1197837288156176434/WhatsApp_Image_2024-01-19_at_13.38.38.jpeg?ex=65bcb7e8&is=65aa42e8&hm=fce509b46270d2f78a62491f8c74ec5367f929e335209a4656d8e76a69564ecd&",
+      "https://cdn.discordapp.com/attachments/1133382170321371238/1197837289217339523/WhatsApp_Image_2024-01-19_at_13.38.44.jpeg?ex=65bcb7e8&is=65aa42e8&hm=911db328ec6630181401047ed13ee449d9dae933a39645b791a115261ffaef09&",
+      "https://cdn.discordapp.com/attachments/1133382170321371238/1197837290064584704/WhatsApp_Image_2024-01-19_at_13.38.46.jpeg?ex=65bcb7e8&is=65aa42e8&hm=ae4fed52e194cff9973aeb62802a5c5889143259f481eb0e726015ab5599d0a2&",
+      "https://cdn.discordapp.com/attachments/1133382170321371238/1197837291155107890/WhatsApp_Image_2024-01-19_at_13.38.47_1.jpeg?ex=65bcb7e8&is=65aa42e8&hm=a732d018c6d82c4466932f0a1869f829636fa870f687c7ee5a2b1f582c719155&",
+      "https://cdn.discordapp.com/attachments/1133382170321371238/1197837292111405076/WhatsApp_Image_2024-01-19_at_13.38.47.jpeg?ex=65bcb7e9&is=65aa42e9&hm=9fd3996946045710cfc53c16a126512fa93e45ae65ca381e20bcc2439f3e3744&",
+      "https://cdn.discordapp.com/attachments/1133382170321371238/1197837292975427594/WhatsApp_Image_2024-01-19_at_13.38.48_1.jpeg?ex=65bcb7e9&is=65aa42e9&hm=45fcc26173c33d7df46170fd8448663b22221346083dcd3c37f8d641e7b4558a&",
+      "https://cdn.discordapp.com/attachments/1133382170321371238/1197837345051906109/WhatsApp_Image_2024-01-19_at_13.38.45.jpeg?ex=65bcb7f5&is=65aa42f5&hm=b4b3d8ba01fb2d72dc51972763e887cadca3382d606d898d7a7bf263bd100bc3&",
+      "https://cdn.discordapp.com/attachments/1133382170321371238/1197837345861414942/WhatsApp_Image_2024-01-19_at_13.38.46_1.jpeg?ex=65bcb7f5&is=65aa42f5&hm=817d29bb4ee32bd3fd2fe994dd466e1d2370130a257748ba47f3bd2dd383d3c2&",
+      "https://cdn.discordapp.com/attachments/1133382170321371238/1197837346561855508/WhatsApp_Image_2024-01-19_at_13.38.48.jpeg?ex=65bcb7f6&is=65aa42f6&hm=c73735d9998acb74330392b47c3cac8f64e421ffd30993f7129b3dc6703f2cfe&",
+      "https://cdn.discordapp.com/attachments/1133382170321371238/1197837347081965618/WhatsApp_Image_2024-01-19_at_13.38.49.jpeg?ex=65bcb7f6&is=65aa42f6&hm=9477ba622d31f52552ff968a8ecdb2fcc30dd88fc966a10265e0973d31153b84&",
+      "https://cdn.discordapp.com/attachments/1133382170321371238/1197837347467833354/WhatsApp_Image_2024-01-19_at_13.38.50.jpeg?ex=65bcb7f6&is=65aa42f6&hm=6f4d5c4d8b90ee9cc3e6dfe84d60d2b05889db434f8de6c47fb8d41075c14ad0&"
     ]
 
     const horizontal = [
@@ -85,7 +101,10 @@ function Moment() {
       "https://cdn.discordapp.com/attachments/1133382170321371238/1196440595783225426/WhatsApp_Image_2024-01-15_at_20.02.09.jpeg?ex=65b7a322&is=65a52e22&hm=27afbae689333a737e493eef621f6561baeaf77ac35807d49650b55a5f75e8d3&",
       "https://cdn.discordapp.com/attachments/1133382170321371238/1196440596601110528/WhatsApp_Image_2024-01-15_at_20.02.10.jpeg?ex=65b7a323&is=65a52e23&hm=12ad6115429c4262bd218abe88b06e9717bb0d57ec17ed95199313fcbf47d236&",
       "https://cdn.discordapp.com/attachments/1133382170321371238/1196474807613653073/WhatsApp_Image_2024-01-15_at_21.41.31.jpeg?ex=65b7c2ff&is=65a54dff&hm=9766f5af478ad579f6dc6d2a50f18503ccc8edfc0d11e61499ff8dbd24f73dff&",
-      "https://cdn.discordapp.com/attachments/1133382170321371238/1196474807957606552/WhatsApp_Image_2024-01-15_at_21.44.03.jpeg?ex=65b7c2ff&is=65a54dff&hm=c89e4abe03489e411340b98a6f282fd1710123653a7d683c8aa297c9dd94aa70&"  
+      "https://cdn.discordapp.com/attachments/1133382170321371238/1196474807957606552/WhatsApp_Image_2024-01-15_at_21.44.03.jpeg?ex=65b7c2ff&is=65a54dff&hm=c89e4abe03489e411340b98a6f282fd1710123653a7d683c8aa297c9dd94aa70&",  
+      "https://cdn.discordapp.com/attachments/1133382170321371238/1197838028190785596/WhatsApp_Image_2024-01-19_at_13.35.54.jpeg?ex=65bcb898&is=65aa4398&hm=3cef884472fd7a260df357cd32dda9d9a6bf17aa3e3690243efa9c2d2a6dc13a&",
+      "https://cdn.discordapp.com/attachments/1133382170321371238/1197838028538920991/WhatsApp_Image_2024-01-19_at_13.38.50_1.jpeg?ex=65bcb898&is=65aa4398&hm=49ea4ae90866c0d01e8f775b92a5b3f6f006a5d15b17a011b8d2306937a98a8e&"
+    
     ]
   return (
     <div className='moment-container'>
