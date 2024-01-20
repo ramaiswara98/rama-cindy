@@ -30,7 +30,7 @@ function OurStory({fun}) {
             <p className='our-story-title-text'>Our Story</p>
         </div>
        
-        <Slide className='our-story-images' direction='up' triggerOnce={true}>
+        <Slide className='our-story-images' direction='left' duration={2000} triggerOnce={true}>
         {/* <div className='our-story-images'> */}
             <img src={"https://cdn.discordapp.com/attachments/1133382170321371238/1196437344102912071/WhatsApp_Image_2024-01-15_at_19.41.50.jpeg?ex=65b7a01b&is=65a52b1b&hm=7d9ba538999eb48b5ac263252d66eba63ae912b52d19d524c826f26999b8bbc4&"} alt='rama-cindy' style={{width:"100%"}}/>
        

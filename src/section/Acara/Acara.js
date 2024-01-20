@@ -4,7 +4,7 @@ import './Acara.css'
 import Bunga from '../../assets/bunga.png'
 import Ring from '../../assets/images/wedding-rings.png'
 import Wedding from '../../assets/images/couple.png'
-import { Bounce } from 'react-awesome-reveal'
+import { Fade, Slide } from 'react-awesome-reveal'
 import ParticlesComponent from '../../component/Particles/Particles'
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
 import { faChevronRight, faMapLocationDot } from '@fortawesome/free-solid-svg-icons'
@@ -41,14 +41,18 @@ function Acara() {
   return (
     <div className='acara-container'>
       <ParticlesComponent/>
+      
         <div className='bunga-top-container'>
+          <Fade duration={3000}>
             <img src={Bunga} alt='bunga' className='bunga-top-left'/>
+          
             <img src={Bunga} alt='bunga' className='bunga-top-right'/>
+            </Fade>
         </div>
         <div className='acara-title-container'>
             <p className='acara-title-text'>Acara</p>
         </div>
-        <Bounce triggerOnce={true}>
+        <Slide triggerOnce={true}>
         <div className='acara-card'>
             <p className='acara-card-title'>Akad Nikah</p>
             <img src={Ring} alt='mahkota' className='mahkota'/>
@@ -58,8 +62,8 @@ function Acara() {
             
         </div>
        
-        </Bounce>
-        <Bounce triggerOnce={true}>
+        </Slide>
+        <Slide triggerOnce={true} direction='right'>
         <div className='acara-card'>
             <p className='acara-card-title'>Resepsi Mempelai Wanita</p>
             <img src={Wedding} alt='mahkota' className='mahkota'/>
@@ -68,7 +72,9 @@ function Acara() {
             <p className='acara-card-address'>Jln.Angkatan 66, Lempangge, Rappang</p>
 
         </div>
-        <div className='acara-card-lokasi' style={{marginTop:"-15px"}}>
+        <div className='acara-card-lokasi' style={{marginTop:"-15px"}}
+        onClick={()=>{window.open("https://www.google.com/maps/place/3%C2%B050'57.4%22S+119%C2%B049'08.4%22E/@-3.8490791,119.8188818,19z/data=!4m4!3m3!8m2!3d-3.84929!4d119.819002?entry=ttu")}}
+        >
           <div></div>
           <div className='lokasi-items'>
             <FontAwesomeIcon icon={faMapLocationDot}/>
@@ -78,8 +84,8 @@ function Acara() {
             <FontAwesomeIcon icon={faChevronRight}/>
           </div>
         </div>
-        </Bounce>
-        <Bounce triggerOnce={true}>
+        </Slide>
+        <Slide triggerOnce={true} direction='up'>
         <div className='acara-card'>
             <p className='acara-card-title'>Resepsi Mempelai Pria</p>
             <img src={Wedding} alt='mahkota' className='mahkota'/>
@@ -97,10 +103,12 @@ function Acara() {
             <FontAwesomeIcon icon={faChevronRight}/>
           </div>
         </div>
-        </Bounce>
+        </Slide>
         <div className='bunga-bottom-container'>
+        <Fade duration={3000} triggerOnce={true}>
             <img src={Bunga} alt='bunga' className='bunga-bottom-left'/>
             <img src={Bunga} alt='bunga' className='bunga-bottom-right'/>
+            </Fade>
         </div>
         {/* </Particles> */}
     </div>
