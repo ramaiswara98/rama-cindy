@@ -2,12 +2,12 @@ import React from 'react'
 
 import './OurStory.css'
 import Bunga3 from '../../assets/bunga3.png'
-import { Fade, Slide } from 'react-awesome-reveal'
+import {  Slide } from 'react-awesome-reveal'
 import ParticlesComponent from '../../component/Particles/Particles'
 
 function OurStory({fun}) {
 
-  const story = `  Allah memang selalu punya jalan untuk mepertemukan dua insan yang Dia takdirkan untuk bersama.
+  const story = `  Allah memang selalu punya jalan untuk mempertemukan dua insan yang Dia takdirkan untuk bersama.
 
   Mengawali komunikasi dari sosial media, hingga akhirnya bisa bertatap muka untuk pertama kalinya merupakan sebuah kebahagiaan yang luar biasa.
   
